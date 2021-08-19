@@ -15,6 +15,7 @@
 		69338A7226CE7418002C25B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69338A7026CE7418002C25B5 /* LaunchScreen.storyboard */; };
 		69338A7D26CE7418002C25B5 /* RecipeTask_SoftExpertTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69338A7C26CE7418002C25B5 /* RecipeTask_SoftExpertTests.swift */; };
 		69338A8826CE7418002C25B5 /* RecipeTask_SoftExpertUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69338A8726CE7418002C25B5 /* RecipeTask_SoftExpertUITests.swift */; };
+		69338AA126CE8266002C25B5 /* SearchStoryBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69338AA026CE8266002C25B5 /* SearchStoryBoard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		69338A8326CE7418002C25B5 /* RecipeTask-SoftExpertUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RecipeTask-SoftExpertUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		69338A8726CE7418002C25B5 /* RecipeTask_SoftExpertUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeTask_SoftExpertUITests.swift; sourceTree = "<group>"; };
 		69338A8926CE7418002C25B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69338AA026CE8266002C25B5 /* SearchStoryBoard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SearchStoryBoard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,9 @@
 		69338A6426CE7413002C25B5 /* RecipeTask-SoftExpert */ = {
 			isa = PBXGroup;
 			children = (
+				69338A9F26CE822F002C25B5 /* Constants */,
+				69338A9626CE8171002C25B5 /* Details Module */,
+				69338A9526CE815E002C25B5 /* Search Module */,
 				69338A6526CE7413002C25B5 /* AppDelegate.swift */,
 				69338A6726CE7413002C25B5 /* SceneDelegate.swift */,
 				69338A6926CE7413002C25B5 /* ContentView.swift */,
@@ -134,6 +139,76 @@
 				69338A8926CE7418002C25B5 /* Info.plist */,
 			);
 			path = "RecipeTask-SoftExpertUITests";
+			sourceTree = "<group>";
+		};
+		69338A9526CE815E002C25B5 /* Search Module */ = {
+			isa = PBXGroup;
+			children = (
+				69338A9E26CE821F002C25B5 /* Protocols */,
+				69338A9C26CE81E4002C25B5 /* Router */,
+				69338A9B26CE81D3002C25B5 /* Entities */,
+				69338A9A26CE81C8002C25B5 /* Presenter */,
+				69338A9926CE81B8002C25B5 /* Interactor */,
+				69338A9826CE81AC002C25B5 /* View */,
+			);
+			path = "Search Module";
+			sourceTree = "<group>";
+		};
+		69338A9626CE8171002C25B5 /* Details Module */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Details Module";
+			sourceTree = "<group>";
+		};
+		69338A9826CE81AC002C25B5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				69338AA026CE8266002C25B5 /* SearchStoryBoard.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		69338A9926CE81B8002C25B5 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		69338A9A26CE81C8002C25B5 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		69338A9B26CE81D3002C25B5 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		69338A9C26CE81E4002C25B5 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		69338A9E26CE821F002C25B5 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		69338A9F26CE822F002C25B5 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Constants;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,6 +316,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				69338A7226CE7418002C25B5 /* LaunchScreen.storyboard in Resources */,
+				69338AA126CE8266002C25B5 /* SearchStoryBoard.storyboard in Resources */,
 				69338A6F26CE7418002C25B5 /* Preview Assets.xcassets in Resources */,
 				69338A6C26CE7418002C25B5 /* Assets.xcassets in Resources */,
 			);
